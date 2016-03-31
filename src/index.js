@@ -6,7 +6,12 @@ import { createStore, applyMiddleware } from 'redux';
 import App from './components/app';
 import reducers from './reducers';
 
-const createStoreWithMiddleware = applyMiddleware()(createStore);
+// If running with Redux Dev Tools, let them wrap the store
+const createStore2 = window.devToolsExtension
+  ? window.devToolsExtension()(createStore)
+  : createStore;
+
+const createStoreWithMiddleware = applyMiddleware()(createStore2);
 
 ReactDOM.render(
   <Provider store={createStoreWithMiddleware(reducers)}>
