@@ -6,7 +6,7 @@ Interested in learning [React &amp; Redux](https://www.udemy.com/react-redux/)?
 
 You need to have node (4 or 5) installed, and git.
 
-Checkout this repo, install depdencies, then start the webserver on localhost:8080 with the following:
+Checkout this repo, install depedencies, then start the webserver on [localhost:8080](http://localhost:8080/) by doing the following:
 
 ```
 	> git clone https://github.com/estaub/nhjsReactReduxStarter.git
