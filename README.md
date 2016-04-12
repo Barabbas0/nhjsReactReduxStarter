@@ -14,4 +14,3 @@ Checkout this repo, install depedencies, then start the webserver on [localhost:
 	> npm install
 	> npm start
 ```
-
